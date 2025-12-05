@@ -1,10 +1,423 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Privacy Policy - Your App Name</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for Paragon Utility Management System - iOS App">
+    <title>Privacy Policy - Paragon Utility Management System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header .app-name {
+            font-size: 1.1em;
+            opacity: 0.95;
+            font-weight: 500;
+        }
+
+        .header .last-updated {
+            margin-top: 15px;
+            font-size: 0.9em;
+            opacity: 0.85;
+            font-style: italic;
+        }
+
+        .content {
+            padding: 40px 30px;
+        }
+
+        h2 {
+            color: #667eea;
+            font-size: 1.6em;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+            font-weight: 600;
+        }
+
+        h2:first-child {
+            margin-top: 0;
+        }
+
+        h3 {
+            color: #764ba2;
+            font-size: 1.2em;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+            color: #555;
+        }
+
+        ul {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        strong {
+            color: #333;
+            font-weight: 600;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 30px 0;
+            border-left: 5px solid #667eea;
+        }
+
+        .contact-box h2 {
+            border-bottom: none;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            line-height: 1.8;
+        }
+
+        .contact-info p {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background: #f8f9ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        .footer {
+            background: #f8f9fa;
+            padding: 30px;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .footer p {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .developer-info {
+            font-weight: 600;
+            color: #667eea;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .header {
+                padding: 30px 20px;
+            }
+
+            .header h1 {
+                font-size: 1.5em;
+            }
+
+            .header .app-name {
+                font-size: 1em;
+            }
+
+            .content {
+                padding: 25px 20px;
+            }
+
+            h2 {
+                font-size: 1.4em;
+            }
+
+            h3 {
+                font-size: 1.1em;
+            }
+
+            .contact-box {
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 1.3em;
+            }
+
+            .content {
+                padding: 20px 15px;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+
+            h3 {
+                font-size: 1em;
+            }
+        }
+
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Print styles */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .container {
+                box-shadow: none;
+            }
+
+            .header {
+                background: #667eea;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Privacy Policy</h1>
-    <p>Your privacy policy content here...</p>
+    <div class="container">
+        <div class="header">
+            <h1>Privacy Policy</h1>
+            <div class="app-name">Paragon Utility Management System</div>
+            <div class="last-updated">Last Updated: December 5, 2025</div>
+        </div>
+
+        <div class="content">
+            <h2>Introduction</h2>
+            <p>Welcome to Paragon Utility Management System ("we," "our," or "the App"), developed by Scube Technologies Ltd. We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, store, and protect your data when you use our iOS application.</p>
+
+            <h2>Information We Collect</h2>
+
+            <h3>Personal Information</h3>
+            <p>When you register for and use Paragon Utility Management System, we collect the following information:</p>
+            <ul>
+                <li><strong>Name:</strong> Your full name for account identification</li>
+                <li><strong>Email Address:</strong> Used for account authentication, communication, and password recovery</li>
+                <li><strong>Phone Number:</strong> Contact information for account verification and support</li>
+                <li><strong>Password:</strong> Encrypted credentials for secure account access</li>
+                <li><strong>Company Name:</strong> Your organization's name</li>
+                <li><strong>Company Address:</strong> Your organization's physical address</li>
+            </ul>
+
+            <h3>Usage Data</h3>
+            <p>We collect information about how you use the App, including:</p>
+            <ul>
+                <li><strong>Login Activity:</strong> Date and time of login sessions</li>
+                <li><strong>Utility Data:</strong> Electricity consumption, water usage, steam usage, and other utility metrics</li>
+                <li><strong>Cost Calculations:</strong> Energy cost data and consumption patterns</li>
+                <li><strong>Analytics Data:</strong> Usage patterns, feature interactions, and app performance metrics</li>
+            </ul>
+
+            <h3>Automatically Collected Information</h3>
+            <ul>
+                <li>Device information (iOS version, device model)</li>
+                <li>IP address</li>
+                <li>App usage statistics</li>
+                <li>Crash reports and diagnostic data</li>
+            </ul>
+
+            <h2>How We Use Your Information</h2>
+
+            <h3>Primary Functions</h3>
+            <ul>
+                <li><strong>Account Management:</strong> Create and manage your user account</li>
+                <li><strong>Authentication:</strong> Verify your identity when you log in</li>
+                <li><strong>Utility Tracking:</strong> Calculate and display electricity, water, steam, and other utility costs</li>
+                <li><strong>Analytics & Reporting:</strong> Generate graphs, charts, and tables showing your consumption patterns</li>
+                <li><strong>Real-time Monitoring:</strong> Provide runtime energy cost and consumption data</li>
+                <li><strong>Cost Analysis:</strong> Calculate and analyze utility expenses</li>
+            </ul>
+
+            <h3>Communication</h3>
+            <ul>
+                <li>Send important account notifications</li>
+                <li>Provide customer support</li>
+                <li>Share updates about the App</li>
+                <li>Send password reset emails</li>
+            </ul>
+
+            <h3>Service Improvement</h3>
+            <ul>
+                <li>Analyze app usage to improve features</li>
+                <li>Optimize performance and user experience</li>
+                <li>Develop new functionalities</li>
+            </ul>
+
+            <h2>Data Storage and Security</h2>
+
+            <h3>Security Measures</h3>
+            <p>We implement industry-standard security measures to protect your information:</p>
+            <ul>
+                <li><strong>Password Encryption:</strong> All passwords are encrypted using secure hashing algorithms</li>
+                <li><strong>Secure Storage:</strong> Email addresses and passwords are stored securely on encrypted servers</li>
+                <li><strong>SSL/TLS Encryption:</strong> All data transmission between the app and servers uses secure protocols</li>
+                <li><strong>Access Controls:</strong> Limited access to personal data by authorized personnel only</li>
+                <li><strong>Regular Security Audits:</strong> Periodic reviews of our security practices</li>
+            </ul>
+
+            <h3>Data Retention</h3>
+            <ul>
+                <li>Account information is retained while your account is active</li>
+                <li>You may request account deletion at any time</li>
+                <li>Utility data and analytics are retained to provide historical tracking and reports</li>
+                <li>Backup data is maintained for disaster recovery purposes</li>
+            </ul>
+
+            <h2>Your Rights and Choices</h2>
+
+            <div class="highlight-box">
+                <p>You have the following rights regarding your personal information:</p>
+            </div>
+
+            <h3>Access and Control</h3>
+            <ul>
+                <li><strong>View Your Data:</strong> Access your personal information through your account settings</li>
+                <li><strong>Update Information:</strong> Modify your name, email, phone number, company details, and address</li>
+                <li><strong>Delete Account:</strong> Request permanent deletion of your account and associated data</li>
+                <li><strong>Export Data:</strong> Request a copy of your data in a portable format</li>
+            </ul>
+
+            <h3>Privacy Preferences</h3>
+            <ul>
+                <li><strong>Email Preferences:</strong> Opt-out of non-essential communications</li>
+                <li><strong>Data Sharing:</strong> Control how your data is used for analytics (where applicable)</li>
+            </ul>
+
+            <h2>Data Sharing and Disclosure</h2>
+            <p>We do not sell your personal information to third parties. We may share your information only in the following circumstances:</p>
+
+            <h3>Service Providers</h3>
+            <p>We may share data with trusted third-party service providers who assist us in:</p>
+            <ul>
+                <li>Cloud hosting and storage</li>
+                <li>Analytics services</li>
+                <li>Customer support tools</li>
+            </ul>
+            <p>These providers are bound by confidentiality agreements and are prohibited from using your data for any other purpose.</p>
+
+            <h3>Legal Requirements</h3>
+            <p>We may disclose your information when required by law or to:</p>
+            <ul>
+                <li>Comply with legal processes</li>
+                <li>Protect our rights and property</li>
+                <li>Ensure user safety</li>
+                <li>Prevent fraud or security issues</li>
+            </ul>
+
+            <h3>Business Transfers</h3>
+            <p>In the event of a merger, acquisition, or sale of assets, your information may be transferred to the new owner with continued privacy protection.</p>
+
+            <h2>Children's Privacy</h2>
+            <p>Paragon Utility Management System is not intended for users under the age of 13. We do not knowingly collect personal information from children. If we discover that we have inadvertently collected data from a child, we will delete it immediately.</p>
+
+            <h2>International Data Transfers</h2>
+            <p>Your information may be transferred to and processed in countries other than your own. We ensure that appropriate safeguards are in place to protect your data in accordance with this Privacy Policy and applicable international data protection standards.</p>
+
+            <h2>Third-Party Links</h2>
+            <p>Our App may contain links to third-party websites or services. We are not responsible for the privacy practices of these external sites. We encourage you to review their privacy policies before providing any personal information.</p>
+
+            <h2>Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. We will notify you of any material changes by:</p>
+            <ul>
+                <li>Posting the updated policy in the App</li>
+                <li>Sending an email notification to your registered email address</li>
+                <li>Displaying an in-app notification</li>
+            </ul>
+            <p>Your continued use of the App after changes are posted constitutes acceptance of the updated Privacy Policy.</p>
+
+            <div class="contact-box">
+                <h2>Contact Us</h2>
+                <div class="contact-info">
+                    <p>If you have any questions, concerns, or requests regarding this Privacy Policy or your personal information, please contact us at:</p>
+                    <p><strong>Paragon Utility Management System Support</strong></p>
+                    <p><strong>Email:</strong> kawsar@scube.com.bd</p>
+                    <p><strong>Phone:</strong> +8801329665767</p>
+                    <p><strong>Address:</strong> Scube Technologies Ltd, Navana Mashira, House-275K, Level-7, Road-27(Old), 16(New), Dhanmondi, Dhaka-1209, Bangladesh</p>
+                </div>
+            </div>
+
+            <h2>Your Consent</h2>
+            <p>By using Paragon Utility Management System, you consent to the collection, use, and storage of your information as described in this Privacy Policy.</p>
+
+            <h2>Additional Information</h2>
+
+            <h3>Bangladesh Compliance</h3>
+            <p>This Privacy Policy and our data practices comply with the applicable laws and regulations of Bangladesh, including the Digital Security Act, 2018 and other relevant data protection provisions.</p>
+
+            <h3>California Privacy Rights (CCPA)</h3>
+            <p>If you are a California resident, you have additional rights under the California Consumer Privacy Act, including the right to know what personal information is collected and the right to request deletion.</p>
+
+            <h3>European Users (GDPR)</h3>
+            <p>If you are located in the European Economic Area, you have rights under the General Data Protection Regulation, including the right to access, correct, and delete your personal data.</p>
+
+            <h3>Data Breach Notification</h3>
+            <p>In the event of a data breach that affects your personal information, we will notify you within 72 hours of discovering the breach and provide information about the incident and steps we are taking to address it.</p>
+
+            <div class="highlight-box">
+                <p><strong>Effective Date:</strong> December 5, 2025</p>
+                <p>By downloading, installing, or using Paragon Utility Management System, you acknowledge that you have read, understood, and agree to be bound by this Privacy Policy.</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p class="developer-info">Developed by Scube Technologies Ltd</p>
+            <p>&copy; 2025 Paragon Utility Management System. All rights reserved.</p>
+        </div>
+    </div>
 </body>
 </html>
